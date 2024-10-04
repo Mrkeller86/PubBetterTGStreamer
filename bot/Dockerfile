@@ -26,5 +26,5 @@ EXPOSE 5000
 # Run your Python script
 #CMD ["python", "main.py"]
 #try this ny ai which is already running the bot and webapp
-CMD ["sh", "-c", "python3 /app/main.py & gunicorn --bind 0.0.0.0:5000 main:app"]
-#CMD python3 main.py & gunicorn main:app
+#CMD ["sh", "-c", "python3 /app/main.py & gunicorn --bind 0.0.0.0:5000 main:app"]
+CMD python3 main.py & gunicorn main:app
