@@ -9,3 +9,6 @@ m3u8
 js2py
 bs4
 playwright
+pymongo
+flask
+gunicorn
